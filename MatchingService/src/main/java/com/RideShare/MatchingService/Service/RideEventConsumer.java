@@ -19,6 +19,11 @@ public class RideEventConsumer {
             groupId = "matching-service-group"
     )
     public void consumeRideRequestedEvent(RideRequestedEvent event){
+        log.info(
+                "KAFKA CONSUMED RideRequestedEvent | rideId={}",
+                event.getRideId()
+        );
+
         try{
             matchingService.matchDriverForRide(event);
         }
