@@ -1,4 +1,4 @@
-# 🚗 Distributed Ride-Matching Engine (Uber Clone)
+# 🚗 Distributed Ride-Matching Engine (like Uber,Ola)
 
 A high-throughput, low-latency distributed system built with **Spring Boot**, **Apache Kafka**, **Redis**, and **PostgreSQL** that simulates real-time driver matching and location tracking at scale.
 
